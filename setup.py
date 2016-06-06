@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name='papepreview',
-    version='0.0.1',
+    name='paperpreview',
+    version='0.0.2',
     description='Create preview screenshot of your pdfs',
     url='https://github.com/sirrice/paperpreview',
     author='Eugene wu',

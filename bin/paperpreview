@@ -31,7 +31,7 @@ if __name__ == '__main__':
       fname = os.path.basename(pdfpath)
       ofname = "preview_%s.png" % os.path.splitext(fname)[0]
       outpath = os.path.join(outdir, ofname)
-      print "converting %s" % fname
+      print "converting %s -> %s" % (fname, outpath)
       if not preview(pdfpath, outpath, croph=h):
         print "Failed to create preview for %s" % pdfpath
 
